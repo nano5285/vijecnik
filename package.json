@@ -6,7 +6,8 @@
     "license": "MIT",
     "scripts": {
         "serve": "nodemon ./serve.ts",
-        "build": "tsc"
+        "build": "tsc",
+        "start": "ts-node ./serve.ts"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
