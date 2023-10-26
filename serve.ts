@@ -14,7 +14,7 @@ import ConnectDatabase from "./src/config/database";
 const router = express.Router();
 
 const app: Express = express();
-const port: Number = Number(process.env.HTTP_PORT || 5005);
+const port: Number = Number(process.env.HTTP_PORT || 8080);
 
 app.use(
     cors({
