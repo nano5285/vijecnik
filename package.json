@@ -6,12 +6,11 @@
     "license": "MIT",
     "scripts": {
         "serve": "nodemon ./serve.ts",
-        "build": "npm run clean && tsc"
+        "build": "tsc"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
-        "crypto": "^1.0.1",
         "dotenv": "^16.0.1",
         "express": "^4.18.1",
         "google-auth-library": "^8.3.0",
